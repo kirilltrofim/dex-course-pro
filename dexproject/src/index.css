@@ -1,13 +1,39 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+:root{
+  --dark-grey:#303030;
+  --grey:#707070;
+  --light-grey:#9C9C9C;
+  --lightest-grey:#D1D1D1;
+  --lightest-grey1:#F6F6F6;
+  --dark-red:#C60E2E;
+  --red:#E4163A;
+  --light-red:#FF5761;
+  --lightestRed:#FF768E;
+  --blue:#344472;
+
+  --fs-sm:14px;
+  --fs-md:18px;
+  --fs-bd:24px;
+
+  --lh-sm:24px;
+
+  --fw-normal:400;
+  --fw-mediun:500;
+
+}
+@font-face {
+  font-family: 'Avenir';
+  src: url(src/assests/fonts/AvenirLT-Book.woff2),
+  url(src/assests/fonts/AvenirLT-Book.woff2);
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: 'Avenir';
+  src: url(assets/fonts/AvenirLT-Medium.woff2),
+  url(assets/fonts/AvenirLT-Medium.woff);
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
 }
