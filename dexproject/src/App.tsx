@@ -272,6 +272,31 @@ const ButtonCancel = styled.button`
     color: #D1D1D1;
   }
 `
+
+//CheckBox
+const CheckBoxContainer = styled.div`
+  display: flex;
+  align-items: center;
+`;
+
+const CheckboxInput = styled.input`
+  border: 1px solid var(--light-grey);
+  background: var(--red);
+  box-sizing: border-box;
+  border-radius: 2px;
+  margin-right:10px;
+  :hover{
+    border: 1px solid var(--red);
+  }
+`;
+
+const CheckboxLabel = styled.label`
+  font-size: var(--fs-sm);
+  line-height: var(--lh-sm);
+  color: var(--grey);
+  font-weight: var(--fw-medium);
+`;
+
 // Notification
 const Notification = styled.div`
   display: block;
@@ -524,6 +549,11 @@ const App = () => {
                 <ButtonCancel disabled >Cancel</ButtonCancel>
                 <br/>
             </div>
+
+            <CheckBoxContainer>
+                <CheckboxInput type="checkbox" id="checkbox" />
+                <CheckboxLabel htmlFor="checkbox">Text</CheckboxLabel>
+            </CheckBoxContainer>
 
             <br/>
             <Header>
