@@ -1,0 +1,58 @@
+// 3 коровы через background
+.back {
+  width: 1000px;
+  height: 1000px;
+  background-image: url(smok.png),url(slp2.png),url(spl3.png),url(slp4.png),url(cow.png),url(cow.png),url(cow.png),url(fon.jpg);
+  background-position: 30% 42%, 58% 23% ,26% 23%,90% 20%, 90% 33% , 10% 33% , 50% 33% ;
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat,;
+  background-size: 50px, 120px, 120px, 120px, 300px, 300px, 300px, auto;
+}
+// Магия вне Хогвардса
+.check ~ div{
+  width: 100px;
+  height: 100px;
+  margin: 3px;
+  border: 3px solid black;
+  transition: all .3s;
+}
+
+.check ~ div:nth-child(2){
+  background-color: greenyellow;
+  transition-delay: .2s;
+}
+
+.check ~ div:nth-child(3){
+  background-color: burlywood;
+  transition-delay: .4s;
+}
+
+.check ~ div:nth-child(4){
+  background-color: rgb(47, 187, 129);
+  transition-delay: .6s;
+}
+
+.check ~ div:nth-child(5){
+  background-color: rgb(139, 86, 209);
+  transition-delay: .8s;
+}
+
+.check:checked ~ div{
+  transform: translate(300px);
+}
+
+.check ~ .magicText{
+  transition-duration: .8s;
+}
+
+.check:checked ~ .magicText{
+  color: red;
+  font-size: 30px;
+}
+
+
+
+
+
+
+
+
