@@ -1,31 +1,47 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-  sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+:root{
+  --dark-grey:#303030;
+  --grey:#707070;
+  --light-grey:#9C9C9C;
+  --lightest-grey:#D1D1D1;
+  --lightest-grey1:#F6F6F6;
+  --dark-red:#C60E2E;
+  --red:#E4163A;
+  --light-red:#FF5761;
+  --lightestRed:#FF768E;
+  --light-blue: #F5FBFF;
+  --blue:#344472;
+  --white:#FFFFFF;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-  monospace;
-}
+  --fs-spsm:12px;
+  --fs-sm:14px;
+  --fs-md:18px;
+  --fs-bd:24px;
+  --fs-title:36px;
 
+  --lh-title:49px;
+  --lh-sm:24px;
+  --lh-bd:33px;
+  
+  --fw-normal:400;
+  --fw-medium:500;
+  --fw-bold:800;
+
+}
+@font-face {
+  font-family: 'Avenir';
+  src: url(assets/fonts/AvenirLT-Book.woff2),
+  url(assets/fonts/AvenirLT-Book.woff);
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
 
 @font-face {
   font-family: 'Avenir';
-  src: url('./assests/fonts/Avenir-Heavy.woff');
-  src: local('☺'), url('./assests/fonts/Avenir-Medium.woff') format('woff'), url('./assests/fonts/Avenir-Medium.ttf') format('truetype'), url('./assests/fonts/Avenir-Medium.svg') format('svg');
+  src: url(assets/fonts/AvenirLT-Medium.woff2),
+  url(assets/fonts/AvenirLT-Medium.woff);
+  font-style: normal;
   font-weight: 500;
-  font-style: normal;
+  font-display: swap;
 }
 
-
-@font-face {
-  font-family: 'Avenir';
-  src: url('./assests/fonts/Avenir-Heavy.eot');
-  src: local('☺'), url('./assests/fonts/Avenir-Heavy.woff') format('woff'), url('./assests/fonts/Avenir-Heavy.ttf') format('truetype'), url('./assests/fonts/Avenir-Heavy.svg') format('svg');
-  font-weight: 800;
-  font-style: normal;
-}

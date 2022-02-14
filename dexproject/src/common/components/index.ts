@@ -1,0 +1,11 @@
+export { AboutPlayer } from './AboutPlayer';
+export {AboutTeam} from './AboutTeam';
+export {Button} from './Button';
+export {Checkbox} from './Checkbox';
+export {Header} from './Header';
+export {Input} from './Input';
+export {Link} from './Link';
+export {Navbar} from './NavBar';
+export {Notification} from './Notification';
+export {Paginate} from './Paginate';
+export {Search} from './Search';
